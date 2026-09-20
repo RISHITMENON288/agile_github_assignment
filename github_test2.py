@@ -3,7 +3,7 @@
 import random
 
 def play_game():
-    number = random.randint(1, 100)
+    number = random.randint(1, 101)
     attempts = 0
     print("=== Number Guessing Game ===")
     print("I have picked a number between 1 and 100. Try to guess it!")
